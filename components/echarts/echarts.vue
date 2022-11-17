@@ -29,7 +29,7 @@
 			 * @param {Object} params
 			 */
 			onViewClick(params) {
-        console.error(params);
+        // console.error(params);
           // 移动端点击以后，这里的事件不会触发
 
 				this.$emit('click', params)
